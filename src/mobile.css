@@ -65,8 +65,7 @@
 
 /* 3. SERVICES */
 @media (max-width: 767px) {
-  .services-grid { grid-template-columns: 1fr 1fr !important; gap: 14px !important; }
-  .services-grid .ch-card { padding: 20px 16px !important; }
+  .services-grid { grid-template-columns: 1fr 1fr !important; gap: 12px !important; }
 }
 
 /* 4. PRICING */
@@ -91,9 +90,18 @@
 
 /* 7. CONTACT */
 @media (max-width: 767px) {
-  .contact-grid { grid-template-columns: 1fr !important; gap: 20px !important; }
-  .contact-grid > div:last-child { min-height: 280px !important; }
-  .contact-grid > div:last-child iframe { min-height: 280px !important; height: 280px !important; }
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+  .contact-map-wrap {
+    min-height: 260px !important;
+    height: 260px !important;
+  }
+  .contact-map-wrap iframe {
+    min-height: 260px !important;
+    height: 260px !important;
+  }
 }
 
 /* 8. FOOTER */

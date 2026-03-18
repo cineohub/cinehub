@@ -39,8 +39,8 @@ export default function Footer() {
             >
               Cineohub7@gmail.com
             </a>
-            <p style={{ fontFamily: "'DM Sans', sans-serif", color: '#333', fontSize: '0.78rem', margin: 0 }}>
-              📍 Mixing Hub, Guntur, AP
+            <p style={{ fontFamily: "'DM Sans', sans-serif", color: '#444', fontSize: '0.78rem', margin: 0 }}>
+              📍 Cine O Hub, Guntur, AP
             </p>
           </div>
 
