@@ -19,7 +19,7 @@ function IPhoneMockup() {
       <div style={{ animation: 'phoneFloat 3s ease-in-out infinite', position: 'relative', zIndex: 1 }}>
         {/* Frame */}
         <div style={{
-          width: 210, height: 430,
+          width: 260, height: 520,
           background: '#111',
           borderRadius: 38,
           border: '2px solid rgba(255,255,255,0.1)',
@@ -255,13 +255,13 @@ export default function HeroSection() {
           </div>
 
           {/* Bottom trust row */}
-          <div className="reveal delay-6" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: 28 }}>
+          <div className="reveal delay-6" style={{ display: 'flex', alignItems: 'center', gap: 20, flexWrap: 'nowrap' }}>
             {[{ icon: '⚡', text: '10-Min Delivery' }, { icon: '🎬', text: 'Pro Cinematographers' }, { icon: '📍', text: 'Based in Vijayawada' }].map(({ icon, text }, i) => (
-              <div key={text} style={{ display: 'flex', alignItems: 'center', gap: 28 }}>
-                {i > 0 && <div style={{ width: 1, height: 28, background: 'rgba(255,255,255,0.07)' }} />}
-                <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                  <span style={{ fontSize: '1.1rem' }}>{icon}</span>
-                  <span style={{ fontFamily: "'DM Sans', sans-serif", color: '#555', fontSize: '0.72rem', textTransform: 'uppercase', letterSpacing: '1.4px', fontWeight: 500 }}>{text}</span>
+              <div key={text} style={{ display: 'flex', alignItems: 'center', gap: 20 }}>
+                {i > 0 && <div style={{ width: 1, height: 28, background: 'rgba(255,255,255,0.07)', flexShrink: 0 }} />}
+                <div style={{ display: 'flex', alignItems: 'center', gap: 6, whiteSpace: 'nowrap' }}>
+                  <span style={{ fontSize: '1rem' }}>{icon}</span>
+                  <span style={{ fontFamily: "'DM Sans', sans-serif", color: '#555', fontSize: '0.68rem', textTransform: 'uppercase', letterSpacing: '1.2px', fontWeight: 500 }}>{text}</span>
                 </div>
               </div>
             ))}
