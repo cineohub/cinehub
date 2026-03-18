@@ -137,7 +137,7 @@ export default function HeroSection() {
           </h1>
 
           <div className="reveal delay-3" style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 40 }}>
-            {['🕐 24/7 Available', '🎬 Guntur', '📍 Based in Guntur'].map((b) => (
+            {['🕐 24/7 Available', '📍 Based in Guntur'].map((b) => (
               <span key={b} style={{
                 background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.09)',
                 borderRadius: 9999, padding: '7px 18px', fontFamily: "'DM Sans', sans-serif",
