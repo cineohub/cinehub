@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import CineHubLogo from '@/components/CineHubLogo';
 
-const WA_ENQUIRE = "https://wa.me/917702521717?text=Hi%20Cine%20Hub%2C%20I%20want%20to%20enquire%20about%20your%20reel%20packages!";
+const WA_ENQUIRE = "https://wa.me/917702521717?text=Hi%20Cineo%20Hub%2C%20I%20want%20to%20enquire%20about%20your%20reel%20packages!";
 
 const navLinks = [
   { href: '#services', label: 'Services' },
@@ -33,7 +33,7 @@ export default function NavBar() {
         <div style={{ maxWidth: 1200, margin: '0 auto', padding: '0 20px' }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', height: 72 }}>
 
-            <a href="/" aria-label="Cine O Hub Home" style={{ textDecoration: 'none' }}>
+            <a href="/" aria-label="Cineo Hub Home" style={{ textDecoration: 'none' }}>
               <CineHubLogo scale={1} />
             </a>
 
@@ -107,7 +107,7 @@ export default function NavBar() {
           </div>
 
           <p style={{ position: 'absolute', bottom: 32, fontFamily: "'Inter', sans-serif", color: '#333', fontSize: '0.75rem', letterSpacing: '1px', textTransform: 'uppercase' }}>
-            Cine O Hub · Vijayawada
+            Cineo Hub · Vijayawada
           </p>
         </div>
       )}

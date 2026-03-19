@@ -3,7 +3,7 @@ import { useReveal } from '@/hooks/useReveal';
 const testimonials = [
   {
     id: 1,
-    text: 'I booked Cine O Hub for my sister\'s engagement and the reel was ready before the ceremony even ended. Absolutely blown away by the speed and quality!',
+    text: 'I booked Cineo Hub for my sister\'s engagement and the reel was ready before the ceremony even ended. Absolutely blown away by the speed and quality!',
     name: 'Priya Reddy',
     role: 'Engagement Shoot · Guntur',
     initials: 'PR',
@@ -11,7 +11,7 @@ const testimonials = [
   },
   {
     id: 2,
-    text: 'We used Cine O Hub for our restaurant launch event. The cinematographer was professional, punctual, and the final reel got 50k views on Instagram. Worth every rupee.',
+    text: 'We used Cineo Hub for our restaurant launch event. The cinematographer was professional, punctual, and the final reel got 50k views on Instagram. Worth every rupee.',
     name: 'Karthik Naidu',
     role: 'Restaurant Launch · Vijayawada',
     initials: 'KN',
@@ -49,7 +49,7 @@ export default function TestimonialsSection() {
         <div className="reveal" style={{ textAlign: 'center', marginBottom: 56 }}>
           <span className="eyebrow-pill">Testimonials</span>
           <h2 className="section-title">Loved by <span>Real Clients</span></h2>
-          <p className="section-sub">Real stories from people who trusted Cine O Hub for their special moments</p>
+          <p className="section-sub">Real stories from people who trusted Cineo Hub for their special moments</p>
         </div>
 
         <div className="testimonials-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 20 }}>

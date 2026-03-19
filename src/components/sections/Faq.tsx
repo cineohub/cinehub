@@ -5,17 +5,17 @@ import { useReveal } from '@/hooks/useReveal';
 interface FAQItem { question: string; answer: string | ReactElement; }
 
 const faqs: FAQItem[] = [
-  { question: 'What exactly is Cine O Hub?', answer: 'Cine O Hub is a real-time content creation platform where you can book trained cinematographers who shoot, edit, and deliver reels within 10 minutes — perfect for creators, brands, weddings, and events.' },
-  { question: 'How is it different from hiring a regular videographer?', answer: 'Unlike traditional services, Cine O Hub is fast, affordable, and reliable. We deliver professional-grade reels instantly, by certified cinematographers who go through a 6-step training and evaluation process.' },
+  { question: 'What exactly is Cineo Hub?', answer: 'Cineo Hub is a real-time content creation platform where you can book trained cinematographers who shoot, edit, and deliver reels within 10 minutes — perfect for creators, brands, weddings, and events.' },
+  { question: 'How is it different from hiring a regular videographer?', answer: 'Unlike traditional services, Cineo Hub is fast, affordable, and reliable. We deliver professional-grade reels instantly, by certified cinematographers who go through a 6-step training and evaluation process.' },
   { question: 'What packages do you offer?', answer: '• Basic Plan — ₹1,999 + GST: 1 hour shoot, 1 edited reel\n• Gold Plan — ₹4,999 + GST: up to 3 hours, 3 edited reels\n• Platinum Plan — ₹9,999 + GST: full day shoot, 8 edited reels with dedicated coordinator' },
   { question: 'How fast is the delivery really?', answer: 'On average, your reel is delivered within 10–15 minutes post shoot. No waiting for days or weeks.' },
   { question: 'Can I book a specific creator or a female cinematographer?', answer: 'Yes. You can request a preferred creator or a female cinematographer while booking. Subject to availability.' },
   { question: 'What if I cancel my booking?', answer: 'A ₹699 cancellation fee applies if cancelled less than 3 hours before the shoot.' },
   { question: 'Is travel included in the pricing?', answer: 'Travel is included within 15 km. Beyond that, clients must reimburse travel (via petrol or Rapido bill).' },
-  { question: 'Can I directly contact the creator after booking?', answer: 'No. For coordination or changes, always reach out to the Cine O Hub team. Please do not contact creators directly.' },
-  { question: 'Do you operate outside India?', answer: 'Yes, Cine O Hub is currently active in India, UAE, and USA, with city-specific availability.' },
+  { question: 'Can I directly contact the creator after booking?', answer: 'No. For coordination or changes, always reach out to the Cineo Hub team. Please do not contact creators directly.' },
+  { question: 'Do you operate outside India?', answer: 'Yes, Cineo Hub is currently active in India, UAE, and USA, with city-specific availability.' },
   {
-    question: 'What kind of shoots does Cine O Hub handle?',
+    question: 'What kind of shoots does Cineo Hub handle?',
     answer: (
       <ul style={{ listStyle: 'disc', paddingLeft: 20, fontFamily: "'Inter', sans-serif", color: '#888', fontSize: '0.9rem', lineHeight: 1.8, margin: 0 }}>
         <li>Weddings</li><li>Brand campaigns</li><li>Restaurant or product reels</li>
@@ -102,7 +102,7 @@ export default function FAQSection() {
           <div className="reveal" style={{ textAlign: 'center', marginBottom: 56 }}>
             <span className="eyebrow-pill">FAQ</span>
             <h2 className="section-title">Got <span>Questions?</span></h2>
-            <p className="section-sub">Everything you need to know about Cine O Hub</p>
+            <p className="section-sub">Everything you need to know about Cineo Hub</p>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>

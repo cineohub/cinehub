@@ -1,7 +1,7 @@
 import { useReveal } from '@/hooks/useReveal';
 
 const contactRows = [
-  { emoji: '📍', href: 'https://maps.google.com/?q=CineoHub+Guntur', primary: 'CineoHub, Guntur', secondary: 'Andhra Pradesh, India', external: true },
+  { emoji: '📍', href: 'https://maps.google.com/?q=CineoHub+Guntur', primary: 'Cineo Hub, Guntur', secondary: 'Andhra Pradesh, India', external: true },
   { emoji: '📞', href: 'tel:+917702521717', primary: '+91 7702521717', secondary: 'Tap to call', external: false },
   { emoji: '📧', href: 'mailto:Cineohub7@gmail.com', primary: 'Cineohub7@gmail.com', secondary: 'Tap to email', external: false },
   { emoji: '🕐', href: null, primary: 'Open 24/7', secondary: 'Always available for you', external: false },
@@ -112,7 +112,7 @@ export default function ContactSection() {
               style={{ border: 0, display: 'block', minHeight: 420 }}
               allowFullScreen loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Cine O Hub — Guntur"
+              title="Cineo Hub — Guntur"
             />
           </div>
         </div>

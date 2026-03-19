@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 
-const WA_BOOK = "https://wa.me/917702521717?text=Hi%20Cine%20O%20Hub%2C%20I%20want%20to%20book%20a%20shoot!";
+const WA_BOOK = "https://wa.me/917702521717?text=Hi%20Cineo%20Hub%2C%20I%20want%20to%20book%20a%20shoot!";
 
 function IPhoneMockup() {
   return (
@@ -46,7 +46,7 @@ function IPhoneMockup() {
               pointerEvents: 'none',
             }} />
 
-            <span style={{ fontFamily: "'DM Sans', sans-serif", color: '#FF1A1A', fontSize: '0.7rem', letterSpacing: '2px', textTransform: 'uppercase', marginBottom: 12, position: 'relative', fontWeight: 600 }}>Cine O Hub</span>
+            <span style={{ fontFamily: "'DM Sans', sans-serif", color: '#FF1A1A', fontSize: '0.7rem', letterSpacing: '2px', textTransform: 'uppercase', marginBottom: 12, position: 'relative', fontWeight: 600 }}>Cineo Hub</span>
 
             <p style={{ fontFamily: "'Cormorant Garamond', serif", color: '#F0F0F0', fontWeight: 700, fontSize: '0.95rem', textAlign: 'center', lineHeight: 1.45, marginBottom: 8, position: 'relative' }}>
               Reels Created &<br />Delivered On The Spot
@@ -137,7 +137,7 @@ export default function HeroSection() {
           </h1>
 
           <div className="reveal delay-3" style={{ display: 'flex', flexWrap: 'wrap', gap: 10, marginBottom: 40 }}>
-            {['🕐 24/7 Available', '📍 Based in Guntur'].map((b) => (
+            {['🕐 24/7 Available', '📍 Based in Guntur', '📱 Shoot on iPhone'].map((b) => (
               <span key={b} style={{
                 background: 'rgba(255,255,255,0.03)', border: '1px solid rgba(255,255,255,0.09)',
                 borderRadius: 9999, padding: '7px 18px', fontFamily: "'DM Sans', sans-serif",

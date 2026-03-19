@@ -30,7 +30,7 @@ export default function Footer() {
           <div className="footer-brand" style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
             <CineHubLogo scale={0.9} />
             <p style={{ fontFamily: "'DM Sans', sans-serif", color: '#3a3a3a', fontSize: '0.8rem', margin: 0, lineHeight: 1.7 }}>
-              © 2025 Cine O Hub. All Rights Reserved.
+              © 2026 Cineo Hub. All Rights Reserved.
             </p>
             <a href="mailto:Cineohub7@gmail.com"
               style={{ fontFamily: "'DM Sans', sans-serif", color: '#444', fontSize: '0.8rem', textDecoration: 'none', transition: 'color 0.2s' }}
@@ -40,7 +40,7 @@ export default function Footer() {
               Cineohub7@gmail.com
             </a>
             <p style={{ fontFamily: "'DM Sans', sans-serif", color: '#444', fontSize: '0.78rem', margin: 0 }}>
-              📍 Cine O Hub, Guntur, AP
+              📍 Cineo Hub, Guntur, AP
             </p>
           </div>
 
@@ -99,9 +99,42 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div style={{ borderTop: '1px solid rgba(255,255,255,0.05)', marginTop: 32, paddingTop: 20, display: 'flex', justifyContent: 'center' }}>
-          <p style={{ fontFamily: "'DM Sans', sans-serif", color: '#2a2a2a', fontSize: '0.75rem', margin: 0, textAlign: 'center' }}>
-            Made with ❤️ by Cine O Hub · Guntur, Andhra Pradesh
+        <div
+          style={{
+            background: '#1a1a1a',
+            padding: '28px 20px',
+            textAlign: 'center',
+            marginTop: 32,
+            borderRadius: 10,
+          }}
+        >
+          <p style={{ color: '#9a9a9a', fontSize: 14, margin: '0 0 8px' }}>
+            Made with ❤️ by{' '}
+            <a
+              href="https://www.staffarc.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: 6,
+                color: '#d4874a',
+                fontWeight: 500,
+                textDecoration: 'none',
+              }}
+            >
+              <img
+                src="/Staffarc-logo.png"
+                alt="@staffarc"
+                width={14}
+                height={14}
+                style={{ display: 'inline-block', verticalAlign: 'middle' }}
+              />
+              @staffarc
+            </a>
+          </p>
+          <p style={{ color: '#6b6b6b', fontSize: 13, margin: 0 }}>
+            © 2026 cineohub.com All rights reserved.
           </p>
         </div>
       </div>

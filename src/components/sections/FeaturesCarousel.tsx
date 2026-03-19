@@ -15,7 +15,7 @@ export default function FeaturesSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="reveal" style={{ textAlign: 'center', marginBottom: 64 }}>
-          <span className="eyebrow-pill">Get to know Cine O Hub</span>
+          <span className="eyebrow-pill">Get to know Cineo Hub</span>
           <h2 className="section-title">Features That Make Us <span>Stand Out</span></h2>
           <p className="section-sub">Built around your comfort, safety, and convenience.</p>
         </div>
